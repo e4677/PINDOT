@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/onLight1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="on" />
+
+        <Button
+            android:id="@+id/offLight1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="off" />
+
+        <Button
+            android:id="@+id/onFan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="on" />
+
+        <Button
+            android:id="@+id/offFan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="off" />
+
+        <Button
+            android:id="@+id/onLight2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="on" />
+
+        <Button
+            android:id="@+id/offLight2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="off" />
+
+        <Button
+            android:id="@+id/onFan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="on" />
+
+        <Button
+            android:id="@+id/offFan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="off" />
+
+        <TextView
+            android:id="@+id/tempRoom1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Temp: 0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/humRoom1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hum: 0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempRoom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Temp: 0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/humRoom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hum: 0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
