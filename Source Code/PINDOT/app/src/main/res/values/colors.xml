@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00574B</color>
+    <color name="notsodark">#161519</color>
+    <color name="cards">#2B2A32</color>
+    <color name="pinkglow">#FE6DE6</color>
+    <color name="blueglow">#6BE7FF</color>
+    <color name="yellowglow">#FFF6B1</color>
+    <color name="grey">#80FFFFFF</color>
+    <color name="nav">#45444A</color>
+
+</resources>
